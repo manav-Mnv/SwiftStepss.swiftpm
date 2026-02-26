@@ -11,6 +11,18 @@ enum Theme {
     static let pixelYellow = Color(red: 255 / 255, green: 214 / 255, blue: 51 / 255)
     static let pixelShadow = Color(red: 20 / 255, green: 20 / 255, blue: 40 / 255)
     static let whiteText = Color.white
+    static let pixelGreen = Color(red: 50 / 255, green: 205 / 255, blue: 100 / 255)
+    static let pixelRed = Color(red: 240 / 255, green: 80 / 255, blue: 80 / 255)
+    static let pixelOrange = Color(red: 240 / 255, green: 130 / 255, blue: 55 / 255)
+    static let lockedGray = Color(red: 90 / 255, green: 90 / 255, blue: 110 / 255)
+    static let editorBackground = Color(red: 18 / 255, green: 18 / 255, blue: 36 / 255)
+    
+    // Course Selection Colors
+    static let swiftOrange = Color(red: 240 / 255, green: 81 / 255, blue: 56 / 255)
+    static let tealBlue = Color.teal
+    static let coursePurple = Color.purple
+    static let lightGray = Color(red: 42 / 255, green: 42 / 255, blue: 64 / 255)
+    static let categoryBlue = Color(red: 50 / 255, green: 140 / 255, blue: 255 / 255)
 
     // MARK: Typography
 

@@ -4,6 +4,7 @@ import SwiftUI
 
 struct LandingView: View {
 
+    var startAction: () -> Void = {}
     @State private var birdFloat: CGFloat = 0
 
     var body: some View {
@@ -33,7 +34,7 @@ struct LandingView: View {
 
                     // ── Primary Button ──
                     PixelButton(title: "Get Started") {
-                        // Action placeholder
+                        startAction()
                     }
                     .padding(.bottom, isIPad ? Theme.Spacing.xxl : Theme.Spacing.xl)
                 }
